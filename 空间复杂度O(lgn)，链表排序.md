@@ -54,7 +54,18 @@ public:
 
 </pre>
 
-<pre>Java版
+<pre>Java版,耗时856ms，占用内存37400k
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 
 public class Solution {
     public ListNode sortList(ListNode head) {
